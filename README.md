@@ -40,3 +40,12 @@
 ---
 
 ## 📦 Project Structure
+
+
+
+## 🧑‍💻 Developer
+
+**Garvit Singh**  
+M.Tech CSE – IIIT Delhi  
+📫 [LinkedIn](https://www.linkedin.com/in/garvitsingh14/)  
+✉️ [Email](mailto:garvit24034@iiitd.ac.in)
