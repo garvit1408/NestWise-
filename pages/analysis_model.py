@@ -11,6 +11,7 @@ st.set_page_config(page_title = "Plotting Demo")
 
 st.title('Analytics')
 
+st.header("GeoMap")
 new_df = pd.read_csv("/Users/garvit/Desktop/website/datasets/data_viz1.csv")
 
 group_df = new_df.groupby('sector')[['price', 'price_per_sqft', 'built_up_area', 'latitude', 'longitude']].mean()
@@ -49,3 +50,16 @@ st.pyplot(fig)
 # plt.axis("off")
 # plt.tight_layout(pad = 0)
 # st.pyplot()
+
+# Scatter plot area vs price
+
+st.header('Area v/s Price')
+
+property_type = st.selectbox('Select Property Type',['Flat','House'])
+
+if property_type == 'House':
+    fig1 = px.scatter(new_df[new_df['property_type'] == 'house'], x = 'built_up_area', y = "price", color = "bedRoom",title="Area v/s prcie")
+else:
+    fig1 = px.scatter(new_df[new_df['property_type'] == 'flat'], x = 'built_up_area', y = "price", color = "bedRoom",title="Area v/s prcie")
+
+st.plotly_chart(fig1,use_container_width=True)
