@@ -49,7 +49,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/NestWise-.git
+git clone https://github.com/garvit1408/NestWise-.git
 cd NestWise-
 
 # Create and activate virtual environment
