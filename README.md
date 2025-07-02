@@ -1,4 +1,5 @@
 # 🏘️ NestWise: Smarter Real Estate Insights with ML + Streamlit
+![A_professional_and_modern_logo_for_a_real_estate_d](https://github.com/user-attachments/assets/7ac7fbea-ca17-4b76-a085-2d4cfe82de14)
 
 **NestWise** is a data-driven real estate analytics and recommendation platform built using **Streamlit**, **scikit-learn**, and **Plotly**. It empowers users—home buyers, investors, and analysts—with smart tools to analyze, compare, and predict real estate trends in regions like **Gurgaon** and **Dwarka Expressway**.
 
